@@ -5,6 +5,8 @@ import WordCard from './WordCard';
 const word = "Cat";
 const A1 = "Bird"
 const A2 = "Pencil"
+const A3 = "Scissor"
+
 function App() {
   return (
     <div>
@@ -31,6 +33,12 @@ function App() {
       <p> lavel 3 </p>
       <p> คำใบ้ : ใช้สำหรับเขียน</p>
       <WordCard value={A2}/>
+      </div>
+
+      <div class="cities">
+      <p> lavel 4 </p>
+      <p> คำใบ้ : ใช้สำหรับตัดกระดาษ แต่ตัดใจไม่ได้</p>
+      <WordCard value={A3}/>
       </div>
 
     </div>
