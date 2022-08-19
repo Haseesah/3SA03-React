@@ -6,6 +6,7 @@ const word = "Cat";
 const A1 = "Bird"
 const A2 = "Pencil"
 const A3 = "Scissor"
+const A4 = "Telephone"
 
 function App() {
   return (
@@ -39,6 +40,12 @@ function App() {
       <p> lavel 4 </p>
       <p> คำใบ้ : ใช้สำหรับตัดกระดาษ แต่ตัดใจไม่ได้</p>
       <WordCard value={A3}/>
+      </div>
+
+      <div class="cities">
+      <p> lavel 5 </p>
+      <p> คำใบ้ : เครืองมือสื่อสาร ใช้เล่นโซเชียล</p>
+      <WordCard value={A4}/>
       </div>
 
     </div>
