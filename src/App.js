@@ -4,6 +4,7 @@ import WordCard from './WordCard';
 
 const word = "Cat";
 const A1 = "Bird"
+const A2 = "Pencil"
 function App() {
   return (
     <div>
@@ -20,7 +21,17 @@ function App() {
       <WordCard value={word}/>
       </div>
 
-      
+      <div class="cities">
+      <p> lavel 2 </p>
+      <p> คำใบ้ : เป็นสัตว์ที่มีปีก</p>
+      <WordCard value={A1}/>
+      </div>
+
+      <div class="cities">
+      <p> lavel 3 </p>
+      <p> คำใบ้ : ใช้สำหรับเขียน</p>
+      <WordCard value={A2}/>
+      </div>
 
     </div>
     
