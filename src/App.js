@@ -2,14 +2,28 @@ import React from 'react';
 import './App.css';
 import WordCard from './WordCard';
 
-const word = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const word = "Cat";
+const A1 = "Bird"
 function App() {
   return (
     <div>
-      <h1>GAME</h1>
+
+      <div class="cities">
+      <h2>GAME</h2>
       <p>เกมเรียงตัวอักษร</p>
+      <p>จากคำใบ้ที่กำหนด ผู้เล่นต้องเรียงตัวอักษรให้มีความหมายตรงกับคำใบ้</p>
+      </div>
+
+      <div class="cities">
+      <p> lavel 1 </p>
+      <p> คำใบ้ : เป็นสัตว์ 4 ขา ชอบกินปลา</p>
       <WordCard value={word}/>
+      </div>
+
+      
+
     </div>
+    
   );
 }
 
